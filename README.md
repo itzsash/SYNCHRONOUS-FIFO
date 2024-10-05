@@ -58,7 +58,7 @@ A FIFO (First-In, First-Out) is a type of data buffer or queue where the first p
 
 - **Edge Cases**: Test how the FIFO behaves when it is full, when it is empty, and when pointers wrap around. Ensure the flags (full, empty, etc.) work as expected in these scenarios.
 
-### Key Concepts
+## Key Concepts
 
 1. **Single Clock Domain**:
    - In a synchronous FIFO, both the write and read operations are governed by the same clock signal. This simplifies the design since there’s no need to deal with clock domain crossing issues.
