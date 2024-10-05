@@ -8,7 +8,7 @@ A FIFO (First-In, First-Out) is a type of data buffer or queue where the first p
 
 ## Synchronous FIFO (First-In, First-Out)
 
-- **Synchronous FIFO (First-In, First-Out)** is a type of data buffer or queue used in digital systems where both the writing and reading of data are controlled by the same clock signal. This synchronization ensures that all operations occur in lockstep with the clock, making it easier to design and analyze compared to asynchronous FIFOs.
+**Synchronous FIFO (First-In, First-Out)** is a type of data buffer or queue used in digital systems where both the writing and reading of data are controlled by the same clock signal. This synchronization ensures that all operations occur in lockstep with the clock, making it easier to design and analyze compared to asynchronous FIFOs.
 
 # Synchronous FIFO Design Considerations:
 
