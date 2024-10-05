@@ -56,6 +56,9 @@ This FIFO design is suitable for digital systems where data needs to be queued a
 ![Screenshot 2024-10-06 005518](https://github.com/user-attachments/assets/057a85c4-e1ca-4e1b-993e-d23689ea7a42)
 
 
+![Screenshot 2024-10-06 003554](https://github.com/user-attachments/assets/6060c6cc-43d1-494b-a35a-fa18f3813a33)
+
+
 ![Screenshot 2024-10-06 020224](https://github.com/user-attachments/assets/05ef4e08-e171-4f21-810c-90232bca10a5)
 
 
