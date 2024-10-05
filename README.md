@@ -17,7 +17,7 @@ A FIFO (First-In, First-Out) is a type of data buffer or queue where the first p
 
 
 - **Latency**: A synchronous FIFO has predictable and minimal latency since all reads and writes occur at the edges of the clock. The exact timing of data retrieval and storage is well defined, making it suitable for high-speed data buffering in digital systems.
-- 
+
 
 - **Parameterized Depth**: The FIFO depth can be easily adjusted by changing the DEPTH parameter. For example, if the application requires storing more or fewer data elements, adjusting this parameter is sufficient without modifying the core logic.
 
