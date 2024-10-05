@@ -52,5 +52,8 @@ A **Synchronous FIFO (First-In, First-Out)** is a type of data buffer or queue u
 This FIFO design is suitable for digital systems where data needs to be queued and processed in a strict sequence. It's parameterization allows for easy customization, making it adaptable for various applications that require different FIFO depths or data widths.
 
 # Output
+
+![Screenshot 2024-10-06 020224](https://github.com/user-attachments/assets/05ef4e08-e171-4f21-810c-90232bca10a5)
+
 ![Screenshot 2024-10-06 005518](https://github.com/user-attachments/assets/057a85c4-e1ca-4e1b-993e-d23689ea7a42)
 
