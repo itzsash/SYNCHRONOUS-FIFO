@@ -90,9 +90,6 @@ A FIFO (First-In, First-Out) is a type of data buffer or queue where the first p
 - **Memory Array**: Stores the FIFO data, which is indexed by read and write pointers (`fifo_mem`).
 - **Pointer Management**: Read and write pointers, along with wrapped pointers, control access to the FIFO memory, ensuring correct data sequencing (`rptr` and `wptr`).
 
-### Usage
-
-This FIFO design is suitable for digital systems where data needs to be queued and processed in a strict sequence. It's parameterization allows for easy customization, making it adaptable for various applications that require different FIFO depths or data widths.
 
 # Output
 
@@ -107,3 +104,6 @@ This FIFO design is suitable for digital systems where data needs to be queued a
 # Future Work/Enhancements:
 
 While this project focuses on a synchronous FIFO, future enhancements could include the development of an asynchronous FIFO. In an asynchronous FIFO, the write and read operations are controlled by independent clock signals, making it essential for systems where data crosses different clock domains. This type of FIFO is widely used in applications such as multi-clock domain communication, where timing discrepancies need to be managed carefully to ensure reliable data transfer. Future work may involve implementing an asynchronous FIFO with robust clock domain crossing techniques, such as Gray code pointers and metastability mitigation, to further enhance the versatility of the design.
+
+### Contributing
+Feel free to open issues, suggest improvements, or contribute to the code. Your feedback and contributions are welcome!
