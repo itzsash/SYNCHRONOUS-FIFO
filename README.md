@@ -85,14 +85,14 @@ A FIFO (First-In, First-Out) is a type of data buffer or queue where the first p
 4. **Status Flags**:
    - The full and empty flags prevent invalid operations, such as writing data when the FIFO is full or reading data when the FIFO is empty. These flags help manage the flow of data efficiently (`empty` and `full`).
 
-## Project Overview
+# Project Overview
 
 - **FIFO Depth**: 16 
 - **Data Width**: 8 bits
 - **Design Language**: Verilog
 - **Design Type**: Synchronous FIFO with Parameterized Depth and Width
 
-## Key Components
+# Key Components
 
 - **Control Logic**: Manages the reading and writing of data based on input signals (`write_data`,`read_data`,`wr_en` and `rd_en`).
 - **Memory Array**: Stores the FIFO data, which is indexed by read and write pointers (`fifo_mem`).
